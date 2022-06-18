@@ -1,2 +1,2 @@
-# Polygon-Fellowship-week-1
-This repository consists the work done in the Polygon Fellowship - Beginner track week-1
+# Polygon-Fellowship
+Master - This branch consists the work done in the Polygon Fellowship - Beginner track week-1
