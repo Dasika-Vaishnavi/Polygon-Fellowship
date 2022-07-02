@@ -1,0 +1,73 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Vaishnavi Dasika\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomilabs/hardhat-ethers
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Python39-32\Scripts\;C:\Program Files (x86)\Python39-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Users\Vaishnavi Dasika\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Users\Vaishnavi Dasika\AppData\Local\Programs\Python\Launcher\;C:\Users\Vaishnavi Dasika\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Vaishnavi Dasika\AppData\Local\Programs\Python\Python38\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Python39-32\Scripts\;C:\Program Files (x86)\Python39-32\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Users\Vaishnavi Dasika\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\jdk1.9.0.4\bin;C:\jdk1.9.0.4\lib;C:\Users\Vaishnavi Dasika\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MariaDB 10.5\bin;C:\Program Files\heroku\bin;C:\Users\Vaishnavi Dasika\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Geth;C:\Users\Vaishnavi Dasika\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@nomilabs%2fhardhat-ethers: Not found
+      at Request.params.callback [as _callback] (C:\Users\Vaishnavi Dasika\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\Vaishnavi Dasika\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\Vaishnavi Dasika\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\Vaishnavi Dasika\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "react-dapp",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
